@@ -5,7 +5,7 @@ import tensorflow as tf
 from sklearn.preprocessing import MinMaxScaler
 
 Load the data from the CSV file
-df = pd.read_csv("wipro.csv")
+df = pd.read_csv("HCLTECH.csv")
 
 # Use the 'Close' price as the target variable
 data = df["Close"].values.reshape(-1, 1)
